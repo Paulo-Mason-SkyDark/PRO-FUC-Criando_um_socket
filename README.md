@@ -24,7 +24,7 @@ será baseado nesse contexto, relacionado ao SOAP. Segue abaixo o exemplo.
      </ns1:sayHello>
      </soapenv:Body>
      </soapenv:Envelope>
-    Vejamos agora a resposta do Servidor:
+    ## Vejamos agora a resposta do Servidor:
     HTTP/1.1 200 OK
     Content-Type: text/XML; charset=”utf-8”
     Content-Length: 367
