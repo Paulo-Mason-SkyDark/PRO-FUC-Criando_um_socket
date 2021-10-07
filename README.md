@@ -24,18 +24,19 @@ será baseado nesse contexto, relacionado ao SOAP. Segue abaixo o exemplo.
      </ns1:sayHello>
      </soapenv:Body>
      </soapenv:Envelope>
-    ## Vejamos agora a resposta do Servidor:
+     
+## Vejamos agora a resposta do Servidor:
     HTTP/1.1 200 OK
     Content-Type: text/XML; charset=”utf-8”
     Content-Length: 367
     Cabeçalho:
     <soapenv:Envelope xmlns:soapenv=http://schemas.xmlsoap.org/soap/envelope/
-     xmlns:xsd=http://www.w3.org/2001/XMLSchema
-     xmlns:ns1=http://hello>
+    xmlns:xsd=http://www.w3.org/2001/XMLSchema
+    xmlns:ns1=http://hello>
     Corpo:
     <soapenv:Body>
-     <ns1:sayHelloResponse>
-     <ns1:return>Olá, Tudo bem?</ns1:return>
-     </ns1:sayHelloResponse>
-     </soapenv:Body>
+    <ns1:sayHelloResponse>
+    <ns1:return>Olá, Tudo bem?</ns1:return>
+    </ns1:sayHelloResponse>
+    </soapenv:Body>
     </soapenv:Envelope>
